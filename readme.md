@@ -61,8 +61,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Breakdownschets (week 1)
+<br>
+<img src="images/pagina2_1.PNG" width="375px" alt="landingspagepagina2deel1">
 
--uitwerken voor de 1e werkgroep - eind van de eerste week-
 
 
 
