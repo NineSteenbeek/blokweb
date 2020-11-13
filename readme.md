@@ -61,10 +61,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Breakdownschets (week 1)
-<br>
-<img src="images/breakdownschets1.JPG" width="375px" alt="breakdownschets1">
-<br>
-<img src="images/breakdownschets2.JPG" width="375px" alt="breakdownschets2">
+<img src="images/breakdownschets1.jpg" width="375px" alt="breakdownschets1">
+<img src="images/breakdownschets2.jpg" width="375px" alt="breakdownschets2">
 
 
 
@@ -79,13 +77,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Je opdracht:** https://www.airbnb.nl/
 
 **Screenshot(s) van de eerste pagina (small screen):**
-<br>
 <img src="images/voorbeeld1.PNG" width="375px" alt="landingspagepagina1deel1">
 <img src="images/voorbeeld2.PNG" width="375px" alt="landingspagepagina1deel2">
 <img src="images/voorbeeld3.PNG" width="375px" alt="landingspagepagina1deel3">
 
 **Screenshot(s) van de tweede pagina (small screen):**
-<br>
 <img src="images/pagina2_1.PNG" width="375px" alt="landingspagepagina2deel1">
 <img src="images/pagina2_2.PNG" width="375px" alt="landingspagepagina2deel2">
 <img src="images/pagina2_3.PNG" width="375px" alt="landingspagepagina2deel3">
