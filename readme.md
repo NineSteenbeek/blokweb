@@ -59,6 +59,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 -na afloop snel uitkomsten vastleggen-
 
 
+## Voortgang week 2
+-in week 2 hebben we geoefend met flexbox
+<img src="images/voortgangweek2_1.png" width="375px" alt="voortgangweek2">
+
+
 
 ## Breakdownschets (week 1)
 <img src="images/breakdownschets1.jpg" width="375px" alt="breakdownschets1">
