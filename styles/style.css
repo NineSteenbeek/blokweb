@@ -95,6 +95,54 @@ body {
 
 }
 
+header {
+    position: relative;
+}
+
+header img {
+    width: 100vw;
+    height: 450px;
+
+}
+
+header {
+    position: relative;}
+
+header h1 {
+    position: absolute;
+    top: calc(50% - 50%);
+    left: calc(50% - 50%);
+    color: white;
+    font-family: "AirbnbCerealApp-medium";
+    font-weight: normal;
+    font-size: 28px;
+    text-align: center
+}
+
+header p {
+    position: absolute;
+    top: calc(67% - 50%);
+    left: calc(25% - 20%);
+    color: white;
+    font-family: "AirbnbCerealApp-book";
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center
+}
+
+header button {
+    position: absolute;
+    top: calc(79% - 50%);
+    left: calc(45% - 20%);
+    font-family: "AirbnbCerealApp-medium";
+    padding: 0.5em;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    border-radius: 0.5em;
+    border: none;
+
+}
+
 .tweedesectie {
     display: flex;
     overflow-x: auto;
@@ -119,7 +167,7 @@ body {
     box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.35);
     border-radius: 1em;
     margin: 0.5em;
-    min-width: 300px;
+    max-m min-width: 300px;
     max-width: 300px;
     max-height: 350px;
     margin-bottom: 15px;
@@ -180,10 +228,10 @@ article p {
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
     margin-bottom: -1em;
-    min-width: 300px;
-    max-width: 300px;
-    min-height: 230px;
-    max-height: 250px;
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 180px;
+    max-height: 200px;
 
 }
 
@@ -191,11 +239,11 @@ article p {
     background-color: #2D2D2D;
     box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.35);
     border-radius: 1em;
-    margin: 0.5em;
-    min-width: 3px;
-    max-width: 300px;
-    min-height: 350px;
-    max-height: 350px;
+    margin: 0.7em;
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 260px;
+    max-height: 300px;
 
 }
 
@@ -203,7 +251,6 @@ article p {
     text-align: left;
     padding-left: 0.5em;
     padding-right: 0.5em;
-    padding-bottom: 0.7em;
 }
 
 
@@ -213,4 +260,21 @@ article p {
     color: white;
     font-family: "AirbnbCerealApp-Book";
     font-weight: normal;
+}
+
+
+footer {
+    position: relative;
+
+}
+footer li {
+    position: absolute;
+     left:;
+}
+li {
+list-style-type: none;
+}
+
+ul {
+    color:#2D2D2D;
 }

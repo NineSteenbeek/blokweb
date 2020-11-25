@@ -68,8 +68,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Breakdownschets (week 1)
-<img src="images/breakdownschets1.jpg" width="375px" alt="breakdownschets1">
-<img src="images/breakdownschets2.jpg" width="375px" alt="breakdownschets2">
+<img src="images/imagesreadme/breakdownschets1.jpg" width="375px" alt="breakdownschets1">
+<img src="images/imagesreadme/breakdownschets2.jpg" width="375px" alt="breakdownschets2">
 
 
 
@@ -84,13 +84,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Je opdracht:** https://www.airbnb.nl/
 
 **Screenshot(s) van de eerste pagina (small screen):**
-<img src="images/voorbeeld1.PNG" width="375px" alt="landingspagepagina1deel1">
-<img src="images/voorbeeld2.PNG" width="375px" alt="landingspagepagina1deel2">
-<img src="images/voorbeeld3.PNG" width="375px" alt="landingspagepagina1deel3">
+<img src="images/imagesreadme/pagina1.jpg" width="375px" alt="">
+
 
 **Screenshot(s) van de tweede pagina (small screen):**
-<img src="images/pagina2_1.PNG" width="375px" alt="landingspagepagina2deel1">
-<img src="images/pagina2_2.PNG" width="375px" alt="landingspagepagina2deel2">
-<img src="images/pagina2_3.PNG" width="375px" alt="landingspagepagina2deel3">
-<img src="images/pagina2_4.PNG" width="375px" alt="landingspagepagina2deel4">
-<img src="images/pagina2_5.PNG" width="375px" alt="landingspagepagina2deel5">
+<img src="images/imagesreadme/pagina2.jpg" width="375px" alt="Tweedepagina">
+
