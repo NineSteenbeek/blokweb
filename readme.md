@@ -29,30 +29,36 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Voortgang 2 (week 5)
-
--same as voortgang 1-
+In week 5 ben ik voornamelijk (en veel te lang) bezig geweest met de zoekbalk en de slider van de detailpagina. Bij de lukte niet om hem te centreren en voor de slider heb ik verschillende filmpjes moeten kijken.
+Uiteindlijk heb ik de zoekbalk na aanleiding van een voorbeeld van Sanne hem aangepast. De slider is uiteindelijk gelukt.
+Daarnaast ben ik ook lang bezig geweest om fontawesome iconen op de site te krijgen, dit is uiteindelijk ook gelukt.
+<img src="images/imagesreadme/moeilijk4.png" width="375px" alt="voortgangweek4">
+<img src="images/imagesreadme/gelukt4.png" width="375px" alt="voortgangweek4">
 
 
 
 ## Voortgang 1 (week 3)
+in week 3, na de voortang, heb ik niet zo veel gedaan aan de website omdat ik heel druk was met andere vakken. Wel heb ik stukjes in de code verandert. ik heb bijvoorbeeld de margin en padding van het hele bestand op 0 gezet, maar dit betekende dat ik alle andere paddings etc aan moest passen.
+<img src="images/imagesreadme/moeilijk3.png" width="375px" alt="voortgangweek3">
+<img src="images/imagesreadme/gelukt3.png" width="375px" alt="voortgangweek3">
+
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+-dit onderdeel was lastig. Het lukte me niet de figure samen met zijn afbeelding op een goed formaat te krijgen. uiteindelijk ben ik wel heel blij met het resultaat.-
+<img src="images/imagesreadme/moeilijk1.png" width="375px" alt="voortgangweek2">
 
-**Screenshot(s):**
-
--screenshot(s) van hoe ver je bent met korte uitleg-
 
 ### Agenda voor meeting
 
 -samen met je groepje opstellen-
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Martijn        | Charlie            | Emma             | Jon              | Ik
+| ---            | ---                | ---              | ---              | ---
+| Classes?       | w3c validator      | Font             | header doet raar | ook  w3c validator
+| Wel of niet?   |                    |                  |                  | img als achtergrond in header
+|                |                    |                  |                  |
+
 
 ### Verslag van meeting
 

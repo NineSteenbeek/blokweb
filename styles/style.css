@@ -1,4 +1,71 @@
 @font-face {
+    font-family: 'Font Awesome 5 Brands';
+    src: url('FontAwesome5Brands-Regular.eot');
+    src: url('FontAwesome5Brands-Regular.eot?#iefix') format('embedded-opentype'),
+        url('FontAwesome5Brands-Regular.woff2') format('woff2'),
+        url('FontAwesome5Brands-Regular.woff') format('woff'),
+        url('FontAwesome5Brands-Regular.ttf') format('truetype'),
+        url('FontAwesome5Brands-Regular.svg#FontAwesome5Brands-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Pro Solid';
+    src: url('FontAwesome5Pro-Solid.eot');
+    src: url('FontAwesome5Pro-Solid.eot?#iefix') format('embedded-opentype'),
+        url('FontAwesome5Pro-Solid.woff2') format('woff2'),
+        url('FontAwesome5Pro-Solid.woff') format('woff'),
+        url('FontAwesome5Pro-Solid.ttf') format('truetype'),
+        url('FontAwesome5Pro-Solid.svg#FontAwesome5Pro-Solid') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Duotone Solid';
+    src: url('FontAwesome5Duotone-Solid.eot');
+    src: url('FontAwesome5Duotone-Solid.eot?#iefix') format('embedded-opentype'),
+        url('FontAwesome5Duotone-Solid.woff2') format('woff2'),
+        url('FontAwesome5Duotone-Solid.woff') format('woff'),
+        url('FontAwesome5Duotone-Solid.ttf') format('truetype'),
+        url('FontAwesome5Duotone-Solid.svg#FontAwesome5Duotone-Solid') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Pro';
+    src: url('FontAwesome5Pro-Light.eot');
+    src: url('FontAwesome5Pro-Light.eot?#iefix') format('embedded-opentype'),
+        url('FontAwesome5Pro-Light.woff2') format('woff2'),
+        url('FontAwesome5Pro-Light.woff') format('woff'),
+        url('FontAwesome5Pro-Light.ttf') format('truetype'),
+        url('FontAwesome5Pro-Light.svg#FontAwesome5Pro-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Pro';
+    src: url('FontAwesome5Pro-Regular.eot');
+    src: url('FontAwesome5Pro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('FontAwesome5Pro-Regular.woff2') format('woff2'),
+        url('FontAwesome5Pro-Regular.woff') format('woff'),
+        url('FontAwesome5Pro-Regular.ttf') format('truetype'),
+        url('FontAwesome5Pro-Regular.svg#FontAwesome5Pro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
     font-family: 'AirbnbCerealApp-ExtraBold';
     src: url('fonts/AirbnbCerealApp-ExtraBold.eot');
     /* IE9 Compat Modes */
@@ -89,56 +156,225 @@ font-face {
     font-style: normal;
 }
 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'AirbnbCerealApp-Book';
     box-sizing: border-box;
 
 }
 
-header {
+.indexheader {
+    background-image: url("/images/imagesairbnb/header.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-top: -45px;
+
+}
+
+.wrapper {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 20px;
+
+}
+
+form input {
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 15px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 3px, inset rgba(0, 0, 0, 0.2) 0px -1px 2px;
+
+
+}
+
+::placeholder {
+    color: black;
+    font-size: 14px;
+}
+
+
+input[type="radio"] {
+    height: 0;
+    opacity: 0;
+    width: 0;
+}
+
+input[type="radio"]:checked ~ .slide {
+    transform: translateX(100%);
+}
+
+input[type="radio"]:checked + .slide {
+    opacity: 1;
+    transform: translateX(0%);
+    z-index: 1;
+}
+
+
+
+input[type="radio"]:checked + .slide + .nav {
+    z-index: 1;
+}
+
+input[type="radio"]:checked:nth-of-type(1) + .slide + .nav + .dots .dot:nth-child(1) {
+    background-color: black;
+}
+
+input[type="radio"]:checked:nth-of-type(2) + .slide + .nav + .dots .dot:nth-child(2) {
+    background-color: black;
+}
+
+input[type="radio"]:checked:nth-of-type(3) + .slide + .nav + .dots .dot:nth-child(3) {
+    background-color: black;
+}
+
+input[type="radio"]:checked:nth-of-type(4) + .slide + .nav + .dots .dot:nth-child(4) {
+    background-color: black;
+}
+
+.slider {
+    height: 100%;
+    overflow: hidden;
     position: relative;
+    width: 100%;
 }
 
-header img {
-    width: 100vw;
-    height: 450px;
+.slide {
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    transition: 0.5s;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.slide:nth-of-type(1) {
+    background-image: url("/images/slider1.png");
 
 }
 
-header {
-    position: relative;}
+.slide:nth-of-type(2) {
+    background-image: url("/images/slider2.png");
+
+}
+
+.slide:nth-of-type(3) {
+    background-image: url("/images/slider3.png");
+}
+
+.slide:nth-of-type(4) {
+    background-image: url("/images/slider4.png");
+}
+
+.nav {
+    position: absolute;
+    padding: 20px;
+    top: 50%;
+    width: 100%;
+    z-index: 0;
+}
+
+.prev {
+    cursor: pointer;
+    float: left;
+}
+
+.prev {
+    border-top: 3px solid #FFF;
+    border-left: 3px solid #FFF;
+    border-radius: 1px;
+    display: block;
+    height: 20px;
+    transform: rotate(-45deg);
+    width: 20px;
+}
+
+.next {
+    cursor: pointer;
+    float: right;
+}
+
+.next {
+    border-top: 3px solid #FFF;
+    border-right: 3px solid #FFF;
+    border-radius: 1px;
+    margin-right: 40px;
+    display: block;
+    height: 20px;
+    width: 20px;
+    transform: rotate(45deg);
+}
+
+.dots {
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
+.dot {
+    cursor: pointer;
+    display: inline-block;
+    height: 5px;
+    width: 30px;
+}
 
 header h1 {
-    position: absolute;
-    top: calc(50% - 50%);
-    left: calc(50% - 50%);
+    padding-top: 80px;
     color: white;
     font-family: "AirbnbCerealApp-medium";
     font-weight: normal;
     font-size: 28px;
-    text-align: center
+    text-align: center;
+    margin-top: 40px;
 }
 
 header p {
-    position: absolute;
-    top: calc(67% - 50%);
-    left: calc(25% - 20%);
     color: white;
-    font-family: "AirbnbCerealApp-book";
+    font-family: "AirbnbCerealApp-medium";
     font-weight: normal;
     font-size: 12px;
-    text-align: center
+    text-align: center;
+    padding-top: -10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+
+}
+
+header section {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 270px;
 }
 
 header button {
-    position: absolute;
-    top: calc(79% - 50%);
-    left: calc(45% - 20%);
+    text-align: center;
+    vertical-align: top;
     font-family: "AirbnbCerealApp-medium";
-    padding: 0.5em;
-    padding-left: 1.2em;
-    padding-right: 1.2em;
-    border-radius: 0.5em;
+    padding: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 8px;
     border: none;
 
 }
@@ -147,9 +383,9 @@ header button {
     display: flex;
     overflow-x: auto;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
-.tweedesectie section {}
 
 .tweedesectie img {
     border-top-left-radius: 1em;
@@ -167,7 +403,7 @@ header button {
     box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.35);
     border-radius: 1em;
     margin: 0.5em;
-    max-m min-width: 300px;
+    min-width: 300px;
     max-width: 300px;
     max-height: 350px;
     margin-bottom: 15px;
@@ -176,13 +412,13 @@ header button {
 
 .tweedesectie figcaption {
     text-align: left;
+    margin: 1em;
     padding-left: 0.5em;
     padding-right: 0.5em;
     padding-bottom: 0.7em;
 }
 
 .tweedesectie figure p {
-    margin-top: -1.2em;
     font-family: "AirbnbCerealApp-Light";
     font-size: 85%;
     color: dimgray;
@@ -190,6 +426,7 @@ header button {
 
 .tweedesectie figure h4 {
     font-size: 100%;
+    font-family: "AirbnbCerealApp-Medium";
 
 }
 
@@ -197,29 +434,39 @@ header button {
     display: flex;
     flex-direction: column;
     background-color: black;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    margin: -10px;
 }
+
 
 article {
     color: white;
-    margin-left: 15px;
+    margin-bottom: 25px;
 
 }
 
 article h2 {
     font-family: "AirbnbCerealApp-Book";
     font-size: normal;
-    margin-bottom: -10px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    margin-left: 15px;
 }
 
 article p {
     font-family: "AirbnbCerealApp-Light";
     font-size: 85%;
+    margin-left: 20px;
+    margin-right: 15px;
+    color: white;
 }
 
 .derdesectiefotos {
     display: flex;
     overflow-x: auto;
     justify-content: space-between;
+
 }
 
 .derdesectiefotos section {}
@@ -227,11 +474,10 @@ article p {
 .derdesectiefotos img {
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
-    margin-bottom: -1em;
     min-width: 250px;
     max-width: 250px;
-    min-height: 180px;
-    max-height: 200px;
+    max-height: 250px;
+
 
 }
 
@@ -242,8 +488,8 @@ article p {
     margin: 0.7em;
     min-width: 250px;
     max-width: 250px;
-    min-height: 260px;
-    max-height: 300px;
+    min-height: 320px;
+
 
 }
 
@@ -264,17 +510,216 @@ article p {
 
 
 footer {
-    position: relative;
+    font-family: "AirbnbCerealApp-Book";
+    min-width: 100%;
+    padding-left: 10px;
+    margin-top: -20px;
+    padding-top: 10px;
+    background-color: #F7F7F7;
+}
 
-}
-footer li {
-    position: absolute;
-     left:;
-}
 li {
-list-style-type: none;
+    list-style-type: none;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 14px;
+    font-family: "AirbnbCerealApp-Light";
 }
+
 
 ul {
-    color:#2D2D2D;
+    margin-left: 10px;
+    padding-left: 0;
+    line-height: 140%;
+    color: #2D2D2D;
+    list-style-type: none;
 }
+
+footer li:first-child {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "AirbnbCerealApp-Medium";
+}
+
+footer section ul a {
+    text-decoration: none;
+    color: black;
+}
+
+main section h6:first-of-type {
+    font-family: "AirbnbCerealApp-Book";
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 1em;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+main section h6:nth-last-of-type(2)::before {
+    content: "\f005";
+    font-family: "FontAwesome5Pro-Solid";
+    margin-right: 5px;
+}
+
+main section h6 {
+    font-family: "AirbnbCerealApp-Book";
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 1em;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+main section h1 {
+    font-family: "AirbnbCerealApp-Book";
+    font-size: 24px;
+    margin-bottom: .7em;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+main section hr {
+    width: 90%;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #E5E5E5;
+    background-color: #E5E5E5;
+    height: 2px;
+    border-width: 0;
+}
+
+
+main section h2 {
+    font-family: "AirbnbCerealApp-Book";
+    font-weight: normal;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+main section li {
+    font-family: "AirbnbCerealApp-book";
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 30px;
+}
+
+
+/* eerste li met iconen */
+
+section .li-iconfirst {
+    margin: 0;
+    margin-right: 10px;
+
+}
+
+section .li-iconfirst li::before {
+    padding: 0;
+    width: 90%;
+    margin: 10px 0;
+    font-family: "FontAwesome5Pro-Light";
+    font-size: 26px;
+    margin-left: 5px;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+
+section .li-iconfirst li:first-of-type::before {
+    content: "\f017";
+    margin-right: 17px;
+
+}
+
+
+section .li-iconfirst li:nth-child(2)::before {
+    content: "\f0c0";
+
+
+}
+
+section .li-iconfirst li:nth-child(3)::before {
+    content: "\f108";
+
+}
+
+section .li-iconfirst li:nth-child(4)::before {
+    content: "\f1ab";
+
+}
+
+/* einde eerste li met iconen */
+
+
+.watjegaatdoen {
+    width: 100%;
+}
+
+.vierkantknop {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border: .1em solid black;
+    font-size: 18px;
+}
+
+
+
+h7 {
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+
+/*tweede li met iconen*/
+section .li-iconsecond li::before {
+    padding: 0;
+    width: 90%;
+    margin: 10px 0;
+    font-family: "FontAwesome5Pro-Light";
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 5px;
+    vertical-align: top;
+}
+
+section .li-iconsecond li:first-of-type::before {
+    content: "\f2f7";
+
+}
+
+section .li-iconsecond li:nth-child(2)::before {
+    content: "\f005";
+    font-family: "FontAwesome5Pro-Solid";
+
+}
+
+.li-iconsecond li {
+    margin-bottom: -15px;
+}
+
+.li-iconsecond {
+    margin-bottom: 40px;
+}
+
+h6 a {
+    text-decoration: underline;
+}
+
+header {
+    height: 500px;
+}
+.paginatwee p {
+    color: black;
+    line-height: 160%;
+    font-size: 16px;
+}
+
