@@ -202,7 +202,6 @@ a:focus {
     left: 0;
     position: absolute;
 }
-
 /* achtergrond styling */
 .menu-bg {
     z-index: 1;
@@ -212,30 +211,22 @@ a:focus {
     background: radial-gradient(circle, #e61d4f, #d80665);
     border-radius: 50%;
     transition: 0.3s ease;
-    -webkit-transition: transform 0.3s ease-in;
-    -moz-transition: transform 0.3s ease-in;
-    -o-transition: transform 0.3s ease-in;
-    transition: transform 0.3s ease-in;
 }
 
 #menu-bar {
     z-index: 2;
 }
 
-/* class die wordt toegevoegd door js */
+/* clas change bg wordt toegevoegd */
 .change-bg {
-    top: 0;
-    left: 0;
     width: 550px;
     height: 540px;
+    transform: translate3d(-60%, -30%, 0);
     -webkit-transform: translate3d(-60%, -30%, 0);
+     -moz-transform: translate3d(-60%, -30%, 0);
+    -ms-transform: translate3d(-60%, -30%, 0);
+    -o-transform: translate3d(-60%, -30%, 0);
 
-    /* class die wordt toegevoegd door js
-    transform: translate(-60%, -30%);
-    -webkit-transform: translate(-60%, -30%);
-    -moz-transform: translate(-60%, -30%);
-    -ms-transform: translate(-60%, -30%);
-    -o-transform: translate(-60%, -30%); */
 }
 
 /* bars worden wit */
