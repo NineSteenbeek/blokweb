@@ -220,9 +220,10 @@ a:focus {
 
 /* class die wordt toegevoegd door js */
 .change-bg {
-    transform: translate(-60%, -30%);
+    position: absolute;
     top: 0;
     left: 0;
+    transform: translate(-60%, -30%);
     width: 550px;
     height: 540px;
     transform: translate(-60%, -30%);
