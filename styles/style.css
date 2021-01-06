@@ -729,6 +729,7 @@ div.animatie::before {
     font-family: "Font Awesome 5 Pro";
     top: 50%;
     bottom: 50%;
+    color: black;
 }
 
 /* icoon na de animatie */
