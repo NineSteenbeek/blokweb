@@ -222,8 +222,7 @@ a:focus {
 .change-bg {
     width: 550px;
     height: 540px;
-    top: -10px;
-    right: -10px;
+    transform: translate(-60%, -30%);
 }
 
 /* bars worden wit */
