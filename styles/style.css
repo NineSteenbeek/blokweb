@@ -224,7 +224,6 @@ a:focus {
 
 /* class die wordt toegevoegd door js */
 .change-bg {
-    position: relative;
     top: 0;
     left: 0;
     width: 550px;
