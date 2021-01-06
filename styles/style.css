@@ -38,7 +38,7 @@
 }
 
 @font-face {
-    font-family: 'Font Awesome 5 Pro Light';
+    font-family: 'Font Awesome 5 Pro';
     src: url('/blokweb/styles/fonts/FontAwesome5Pro-Light.eot');
     src: url('/blokweb/styles/fonts/FontAwesome5Pro-Light.eot?#iefix') format('embedded-opentype'),
         url('/blokweb/styles/fonts/FontAwesome5Pro-Light.woff2') format('woff2'),
@@ -167,10 +167,11 @@ font-face {
 }
 
 /* styling alle links */
+a,
 a:visited,
 a:hover,
 a:focus {
-    text-decoration: none;
+    text-decoration: underline;
     color: #000000;
 }
 
@@ -220,7 +221,7 @@ ul {
 /* dik maken op hover en focus*/
 .nav li a:hover,
 a:focus {
-    font-family: 'AirbnbCerealApp-Medium';
+    font-family: 'AirbnbCerealApp-medium';
 }
 
 /* geen styling li */
@@ -388,7 +389,7 @@ input[type="radio"]:checked:nth-of-type(4) + .slide + .nav + .dots .dot:nth-chil
 
 /* afbeeldingen voor in de slider  */
 .slide:nth-of-type(1) {
-    background-image: url("/blokweb/images/imagesairbnb/slider1.png");
+    background-image: url("/styles/fonts/mess.png");
 
 }
 
@@ -428,7 +429,7 @@ input[type="radio"]:checked:nth-of-type(4) + .slide + .nav + .dots .dot:nth-chil
 header h1 {
     padding-top: 80px;
     color: white;
-    font-family: "AirbnbCerealApp-Medium";
+    font-family: "AirbnbCerealApp-medium";
     font-weight: normal;
     font-size: 28px;
     text-align: center;
@@ -437,7 +438,7 @@ header h1 {
 
 header p {
     color: white;
-    font-family: "AirbnbCerealApp-Medium";
+    font-family: "AirbnbCerealApp-medium";
     font-weight: normal;
     font-size: 12px;
     text-align: center;
@@ -461,7 +462,7 @@ header section {
 header button {
     text-align: center;
     vertical-align: top;
-    font-family: "AirbnbCerealApp-Medium";
+    font-family: "AirbnbCerealApp-medium";
     padding: 8px;
     padding-left: 18px;
     padding-right: 18px;
@@ -645,7 +646,7 @@ header button {
 /* algemene styling van de li */
 .block li::before {
     font-size: 18px;
-    font-family: "Font Awesome 5 Pro";
+    font-family: "FontAwesome";
     vertical-align: top;
 
 }
@@ -695,6 +696,7 @@ header button {
 .block div {
     display: flex;
     justify-content: center;
+
 }
 
 /* ruimte tussen de li's */
@@ -767,17 +769,17 @@ div.animatie {
 div.animatie::before {
     content: "\f004";
     font-size: 21px;
-    font-family: "Font Awesome 5 Pro";
+    font-family: "FontAwesome";
     top: 50%;
     bottom: 50%;
 }
 
-/* icoon na de animatie */
+/* icoon voor na de animatie */
 div.animatie.hartje::before {
     content: "\f004";
     font-size: 21px;
     color: red;
-    font-family: "Font Awesome 5 Pro Solid";
+    font-family: "FontAwesome";
     top: 50%;
     bottom: 50%;
 }
@@ -808,7 +810,7 @@ div.animatie.hartje {
 /* icoon h6 detail sterretje */
 .tweedepagina main section:first-of-type h6:nth-of-type(2)::before {
     content: "\f005";
-    font-family: "Font Awesome 5 Pro Solid";
+    font-family: "FontAwesome";
     margin-right: 5px;
     color: #e61d4f
 }
@@ -864,7 +866,7 @@ hr {
 /* algemene styling icoon*/
 .tweedepagina main section:nth-of-type(2) li::before {
     margin: 20px 10px;
-    font-family: "Font Awesome 5 Pro Light";
+    font-family: "FontAwesome";
     font-size: 26px;
     margin-left: -45px;
     vertical-align: top;
@@ -967,7 +969,7 @@ hr {
     padding: 0;
     width: 90%;
     margin: 10px 0;
-    font-family: "Font Awesome 5 Pro Solid";
+    font-family: "FontAwesome";
     font-size: 18px;
     margin-left: 20px;
     margin-right: 5px;
