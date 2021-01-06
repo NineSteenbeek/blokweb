@@ -388,21 +388,21 @@ input[type="radio"]:checked:nth-of-type(4) + .slide + .nav + .dots .dot:nth-chil
 
 /* afbeeldingen voor in de slider  */
 .slide:nth-of-type(1) {
-    background-image: url("/images/imagesairbnb/slider1.png");
+    background-image: url("/blokweb/images/imagesairbnb/slider1.png");
 
 }
 
 .slide:nth-of-type(2) {
-    background-image: url("/images/imagesairbnb/slider2.png");
+    background-image: url("/blokweb/images/imagesairbnb/slider2.png");
 
 }
 
 .slide:nth-of-type(3) {
-    background-image: url("/images/imagesairbnb/slider3.png");
+    background-image: url("/blokweb/images/imagesairbnb/slider3.png");
 }
 
 .slide:nth-of-type(4) {
-    background-image: url("/images/imagesairbnb/slider4.png");
+    background-image: url("/blokweb/images/imagesairbnb/slider4.png");
 }
 
 /* box waar dots inzitten */
@@ -1098,7 +1098,7 @@ hr {
 
 @media (max-width: 767px) {
     .eerstepagina header:first-of-type {
-        background-image: url("/images/imagesairbnb/header2.png");
+        background-image: url("/blokweb/images/imagesairbnb/header2.png");
         background-size: cover;
         background-repeat: no-repeat;
         height: 500px;
@@ -1109,7 +1109,7 @@ hr {
 
 @media (min-width: 678px) and (max-width: 1023px) {
     .eerstepagina header:first-of-type {
-        background-image: url("/images/imagesairbnb/header4.png");
+        background-image: url("/blokweb/images/imagesairbnb/header4.png");
         background-size: cover;
         background-repeat: no-repeat;
         margin-top: -45px;
@@ -1129,7 +1129,7 @@ hr {
 
 @media (min-width: 1024px) {
     .eerstepagina header:first-of-type {
-        background-image: url("/images/imagesairbnb/header5.png");
+        background-image: url("/blokweb/images/imagesairbnb/header5.png");
         background-size: cover;
         background-repeat: no-repeat;
         margin-top: -45px;
