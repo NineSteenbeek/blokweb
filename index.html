@@ -11,102 +11,105 @@
     <link href="styles/style.css" rel="stylesheet">
 </head>
 
-<body>
-    <header class="indexheader">
+<body class="eerstepagina">
+   <div tabindex="0" id="menu-bar" onkeydown="event.keyCode != 13 || onClickMenu();" >
+            <div id="menu" onclick="onClickMenu()">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+            </div>
+            <ul class="nav" id="nav">
+                <li><a href="#" tabindex="0">Home</a></li>
+                <li><a href="#" tabindex="0">Over</a></li>
+                <li><a href="#" tabindex="0">Accomodaties</a></li>
+                <li><a href="#" tabindex="0">Profiel</a></li>
+                <li><a href="#" tabindex="0">Contact</a></li>
+            </ul>
+        </div>
+        <div class="menu-bg" id="menu-bg"></div>
 
-        <form class="wrapper">
-            <input type="text" class="input" placeholder="Waar ga je naartoe">
+    <header>
+        <form>
+            <input type="search" results=5 placeholder="Waar ga je naartoe">
         </form>
         <section>
             <h1> Dichtbij is het nieuwe ver weg</h1>
             <p> Ga een tijdje ergnens anders naartoe. Ontdek plekken in de buurt om te wonen, te werken of te ontspannen.</p>
             <button>De buurt ontdekken</button>
         </section>
-
     </header>
     <main>
-
         <!-- tweede sectie met foto's-->
-        <section class="tweedesectie">
-            <section>
+        <section>
                 <figure>
-                    <img src="images/imagesairbnb/sectie2_1.jpg" alt="">
+                   <a href="detail.html">
+                       <img src="images/imagesairbnb/sectie2_1.jpg" alt=""></a>
                     <figcaption>
                         <h4>Unieke Accomodaties</h4>
                         <p>Ruimtes die meer zijn dan alleen een plek om te slapen.</p>
                     </figcaption>
                 </figure>
-            </section>
-
-            <section>
                 <figure>
-                    <img src="images/imagesairbnb/sectie2_2.jpg" alt="">
+                   <a href="detail.html">
+                       <img src="images/imagesairbnb/sectie2_2.jpg" alt=""></a>
                     <figcaption>
                         <h4>Online ervaringen</h4>
                         <p> Bijzondere activiteiten die we onder leiding van hosts kunnen doen.</p>
                     </figcaption>
                 </figure>
-            </section>
-
-            <section>
                 <figure>
-                    <img src="images/imagesairbnb/sectie2_3.jpg" alt="">
+                   <a href="detail.html">
+                       <img src="images/imagesairbnb/sectie2_3.jpg" alt=""></a>
                     <figcaption>
                         <h4>Gehele woningen</h4>
                         <p> Prettige privéwoningen met ruimte voor vrienden of familie.</p>
                     </figcaption>
-                </figure>
-            </section>
+            </figure>
         </section>
         <!-- einde tweede sectie met foto's-->
 
         <!-- derde sectie-->
-        <section class="boxderdesectie">
+        <section>
             <article>
                 <h2> Online ervaringen</h2>
                 <p> Ontmoet mensen van over de hele wereld terwijl je iets nieuws uitprobeert. Neem vanuit huis mee aan interactieve live-videosessies onder leiding van bijzondere hosts. </p>
             </article>
             <!-- derde sectie fotos-->
-            <section class="derdesectiefotos">
-                <section>
+            <section>
                     <figure>
-                       <a href="detail.html">
-                        <img src="images/imagesairbnb/sectie3_1.jpg" alt=""></a>
+                        <a href="detail.html">
+                            <img src="images/imagesairbnb/sectie3_1.jpg" alt=""></a>
                         <figcaption>
                             <h4>Soepnoodles maken in Shanghai</h4>
                         </figcaption>
                     </figure>
-                </section>
 
-                <section>
                     <figure>
-                        <img src="images/imagesairbnb/sectie3_2.jpg" alt="">
+                       <a href="detail.html">
+                           <img src="images/imagesairbnb/sectie3_2.jpg" alt=""></a>
                         <figcaption>
                             <h4>Ontdek feminisme door straatkunst en graffiti</h4>
                         </figcaption>
                     </figure>
-                </section>
 
-                <section>
+
                     <figure>
-                        <img src="images/imagesairbnb/sectie3_3.jpg" alt="">
+                       <a href="detail.html">
+                           <img src="images/imagesairbnb/sectie3_3.jpg" alt=""></a>
                         <figcaption>
                             <h4>Backstage met een New Yorkse goochelaar</h4>
                         </figcaption>
                     </figure>
-                </section>
 
-                <section>
                     <figure>
-                        <img src="images/imagesairbnb/sectie3_4.jpg" alt="">
+                       <a href="detail.html">
+                           <img src="images/imagesairbnb/sectie3_4.jpg" alt=""></a>
                         <figcaption>
                             <h4>De wondere wereld van cocktails en gender</h4>
                         </figcaption>
                     </figure>
-                </section>
             </section>
         </section>
-
     </main>
     <footer>
         <section>
