@@ -227,15 +227,16 @@ a:focus {
     position: relative;
     top: 0;
     left: 0;
-    transform: translate(-60%, -30%);
     width: 550px;
     height: 540px;
+    transform: translate3d(-60%,-30%,0);
+
+    /* class die wordt toegevoegd door js
     transform: translate(-60%, -30%);
     -webkit-transform: translate(-60%, -30%);
     -moz-transform: translate(-60%, -30%);
     -ms-transform: translate(-60%, -30%);
-    -o-transform: translate(-60%, -30%);
-    transform: translate(-60%, -30%);
+    -o-transform: translate(-60%, -30%); */
 }
 
 /* bars worden wit */
