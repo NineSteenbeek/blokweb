@@ -38,7 +38,7 @@
 }
 
 @font-face {
-    font-family: 'Font Awesome 5 Pro';
+    font-family: 'Font Awesome 5 Pro Light';
     src: url('/blokweb/styles/fonts/FontAwesome5Pro-Light.eot');
     src: url('/blokweb/styles/fonts/FontAwesome5Pro-Light.eot?#iefix') format('embedded-opentype'),
         url('/blokweb/styles/fonts/FontAwesome5Pro-Light.woff2') format('woff2'),
@@ -66,93 +66,50 @@
 
 
 @font-face {
-    font-family: 'AirbnbCerealApp-ExtraBold';
-    src: url('/blokweb/styles/fonts/AirbnbCerealApp-ExtraBold.eot');
-    /* IE9 Compat Modes */
-    src: url('/blokweb/styles/fonts/AirbnbCerealApp-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('/blokweb/styles/fonts/AirbnbCerealApp-ExtraBold.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('/blokweb/styles/fonts/AirbnbCerealApp-ExtraBold.woff') format('woff'),
-        /* Pretty Modern Browsers */
-        url('/blokweb/styles/fonts/AirbnbCerealApp-ExtraBold.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('/blokweb/styles/fonts/AirbnbCerealApp-ExtraBold.svg#svgFontName') format('svg');
-    /* Legacy iOS */
-    font-weight: 400;
+    font-family: 'Airbnb Cereal App Book';
     font-style: normal;
+    font-weight: normal;
+    src: url('/blokweb/styles/fonts/AirbnbCerealBook.woff') format('woff');
 }
 
-font-face {
-    font-family: 'AirbnbCerealApp-Bold';
-    src: url('/blokweb/styles/fonts/AirbnbCerealApp-Bold.eot');
-    /* IE9 Compat Modes */
-    src: url('/blokweb/styles/fonts/AirbnbCerealApp-Bold.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('/blokweb/styles/fonts/AirbnbCerealApp-Bold.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('/blokweb/styles/fonts/AirbnbCerealApp-Bold.woff') format('woff'),
-        /* Pretty Modern Browsers */
-        url('/blokweb/styles/fonts/AirbnbCerealApp-Bold.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('/blokweb/styles/fonts/AirbnbCerealApp-Bold.svg#svgFontName') format('svg');
-    /* Legacy iOS */
-    font-weight: 400;
+
+@font-face {
+    font-family: 'Airbnb Cereal App Light';
     font-style: normal;
+    font-weight: normal;
+    src: url('/blokweb/styles/fonts/AirbnbCerealLight.woff') format('woff');
 }
 
-font-face {
-    font-family: 'AirbnbCerealApp-Medium';
-    src: url('/blokweb/styles/fonts/AirbnbCerealApp-Medium.eot');
-    /* IE9 Compat Modes */
-    src: url('/blokweb/styles/fonts/AirbnbCerealApp-Medium.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('/blokweb/styles/fonts/AirbnbCerealApp-Medium.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('/blokweb/styles/fonts/AirbnbCerealApp-Medium.woff') format('woff'),
-        /* Pretty Modern Browsers */
-        url('/blokweb/styles/fonts/AirbnbCerealApp-Medium.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('/blokweb/styles/fonts/AirbnbCerealApp-Medium.svg#svgFontName') format('svg');
-    /* Legacy iOS */
-    font-weight: 400;
+
+@font-face {
+    font-family: 'Airbnb Cereal App Medium';
     font-style: normal;
+    font-weight: normal;
+    src: url('/blokweb/styles/fonts/AirbnbCerealMedium.woff') format('woff');
 }
 
-font-face {
-    font-family: 'AirbnbCerealApp-Book';
-    src: url('/blokweb/styles/fonts/AirbnbCerealApp-Book.eot');
-    /* IE9 Compat Modes */
-    src: url('/blokweb/styles/fonts/AirbnbCerealApp-Book.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('/blokweb/styles/fonts/AirbnbCerealApp-Book.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('/blokweb/styles/fonts/AirbnbCerealApp-Book.woff') format('woff'),
-        /* Pretty Modern Browsers */
-        url('/blokweb/styles/fonts/AirbnbCerealApp-Book.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('/blokweb/styles/fonts/AirbnbCerealApp-Book.svg#svgFontName') format('svg');
-    /* Legacy iOS */
-    font-weight: 400;
+
+@font-face {
+    font-family: 'Airbnb Cereal App Bold';
     font-style: normal;
+    font-weight: normal;
+    src: url('/blokweb/styles/fonts/AirbnbCerealBold.woff') format('woff');
 }
 
-font-face {
-    font-family: 'AirbnbCerealApp-Light';
-    src: url('/blokweb/styles/fonts/AirbnbCerealApp-Light.eot');
-    /* IE9 Compat Modes */
-    src: url('/blokweb/styles/fonts/AirbnbCerealApp-Light.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('/blokweb/styles/fonts/AirbnbCerealApp-Light.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('/blokweb/styles/fonts/AirbnbCerealApp-Light.woff') format('woff'),
-        /* Pretty Modern Browsers */
-        url('/blokweb/styles/fonts/AirbnbCerealApp-Light.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('/blokweb/styles/fonts/AirbnbCerealApp-Light.svg#svgFontName') format('svg');
-    /* Legacy iOS */
-    font-weight: 400;
+
+@font-face {
+    font-family: 'Airbnb Cereal App Extra Bold';
     font-style: normal;
+    font-weight: normal;
+    src: url('/blokweb/styles/fonts/AirbnbCerealExtraBold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Airbnb Cereal App Black';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/blokweb/styles/fonts/AirbnbCerealBlack.woff') format('woff');
 }
 
 /* einde alle fonts */
@@ -162,7 +119,7 @@ font-face {
 * {
     margin: 0;
     padding: 0;
-    font-family: 'AirbnbCerealApp-Book';
+    font-family: 'Airbnb Cereal App Book';
     box-sizing: border-box;
 }
 
@@ -221,7 +178,7 @@ ul {
 /* dik maken op hover en focus*/
 .nav li a:hover,
 a:focus {
-    font-family: 'AirbnbCerealApp-medium';
+    font-family: 'Airbnb Cereal App Medium';
 }
 
 /* geen styling li */
@@ -389,7 +346,7 @@ input[type="radio"]:checked:nth-of-type(4) + .slide + .nav + .dots .dot:nth-chil
 
 /* afbeeldingen voor in de slider  */
 .slide:nth-of-type(1) {
-    background-image: url("/styles/fonts/mess.png");
+    background-image: url("/blokweb/images/imagesairbnb/slider1.png");
 
 }
 
@@ -429,7 +386,7 @@ input[type="radio"]:checked:nth-of-type(4) + .slide + .nav + .dots .dot:nth-chil
 header h1 {
     padding-top: 80px;
     color: white;
-    font-family: "AirbnbCerealApp-medium";
+    font-family: "Airbnb Cereal App Medium";
     font-weight: normal;
     font-size: 28px;
     text-align: center;
@@ -438,7 +395,7 @@ header h1 {
 
 header p {
     color: white;
-    font-family: "AirbnbCerealApp-medium";
+    font-family: "Airbnb Cereal App Medium";
     font-weight: normal;
     font-size: 12px;
     text-align: center;
@@ -462,12 +419,13 @@ header section {
 header button {
     text-align: center;
     vertical-align: top;
-    font-family: "AirbnbCerealApp-medium";
+    font-family: "Airbnb Cereal App Medium";
     padding: 8px;
     padding-left: 18px;
     padding-right: 18px;
     border-radius: 8px;
     border: none;
+    background-color: white;
 
 }
 
@@ -504,12 +462,12 @@ header button {
 /* h4 in de figure*/
 .eerstepagina main section:first-of-type figure h4 {
     font-size: 14px;
-    font-family: "AirbnbCerealApp-Book";
+    font-family: "Airbnb Cereal App Book";
 }
 
 /* tekst in de figure*/
 .eerstepagina main section:first-of-type figure p {
-    font-family: "AirbnbCerealApp-Light";
+    font-family: "Airbnb Cereal App Light";
     font-size: 85%;
     color: dimgray;
 }
@@ -544,7 +502,7 @@ header button {
 
 /* p van artikel */
 .eerstepagina main section:nth-of-type(2) article p {
-    font-family: "AirbnbCerealApp-Light";
+    font-family: "Airbnb Cereal App Light";
     font-size: 16px;
     margin-left: 15px;
     margin-right: 20px;
@@ -626,7 +584,7 @@ header button {
     list-style-type: none;
     padding: 7px 5px 7px 5px;
     font-size: 14px;
-    font-family: "AirbnbCerealApp-Light";
+    font-family: "Airbnb Cereal App Light";
 }
 
 /* Eerste li item caps maken */
@@ -646,7 +604,7 @@ header button {
 /* algemene styling van de li */
 .block li::before {
     font-size: 18px;
-    font-family: "FontAwesome";
+    font-family: "Font Awesome 5 Pro";
     vertical-align: top;
 
 }
@@ -696,7 +654,6 @@ header button {
 .block div {
     display: flex;
     justify-content: center;
-
 }
 
 /* ruimte tussen de li's */
@@ -769,17 +726,17 @@ div.animatie {
 div.animatie::before {
     content: "\f004";
     font-size: 21px;
-    font-family: "FontAwesome";
+    font-family: "Font Awesome 5 Pro";
     top: 50%;
     bottom: 50%;
 }
 
-/* icoon voor na de animatie */
+/* icoon na de animatie */
 div.animatie.hartje::before {
     content: "\f004";
     font-size: 21px;
     color: red;
-    font-family: "FontAwesome";
+    font-family: "Font Awesome 5 Pro Solid";
     top: 50%;
     bottom: 50%;
 }
@@ -804,13 +761,14 @@ div.animatie.hartje {
 .tweedepagina main section:first-of-type h6:first-of-type {
     font-weight: 600;
     text-transform: uppercase;
-    font-size: 12px;
+    font-family: 'Airbnb Cereal App Medium'
+        font-size: 12px;
 }
 
 /* icoon h6 detail sterretje */
 .tweedepagina main section:first-of-type h6:nth-of-type(2)::before {
     content: "\f005";
-    font-family: "FontAwesome";
+    font-family: "Font Awesome 5 Pro Solid";
     margin-right: 5px;
     color: #e61d4f
 }
@@ -866,7 +824,7 @@ hr {
 /* algemene styling icoon*/
 .tweedepagina main section:nth-of-type(2) li::before {
     margin: 20px 10px;
-    font-family: "FontAwesome";
+    font-family: "Font Awesome 5 Pro Light";
     font-size: 26px;
     margin-left: -45px;
     vertical-align: top;
@@ -949,7 +907,7 @@ hr {
     cursor: pointer;
     margin-left: 20px;
     font-size: 16px;
-    font-family: "AirbnbCerealApp-Medium";
+    font-family: "Airbnb Cereal App Medium";
 }
 
 /* tekst zichtbaar maken*/
@@ -969,7 +927,7 @@ hr {
     padding: 0;
     width: 90%;
     margin: 10px 0;
-    font-family: "FontAwesome";
+    font-family: "Font Awesome 5 Pro Solid";
     font-size: 18px;
     margin-left: 20px;
     margin-right: 5px;
@@ -1043,7 +1001,7 @@ hr {
 
 /* zorgen dat tekst op andere regel verschijnt*/
 .footer section:first-of-type span {
-    font-family: "AirbnbCerealApp-Medium";
+    font-family: "Airbnb Cereal App Medium";
     display: block;
 }
 
@@ -1090,7 +1048,7 @@ hr {
     left: 0;
     right: 0;
     font-size: 12px;
-    font-family: "AirbnbCerealApp-Light";
+    font-family: "Airbnb Cereal App Light";
 }
 
 /* tekst in zwart vlakje*/
