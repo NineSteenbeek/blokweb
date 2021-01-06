@@ -389,7 +389,7 @@ input[type="radio"]:checked:nth-of-type(4) + .slide + .nav + .dots .dot:nth-chil
 
 /* afbeeldingen voor in de slider  */
 .slide:nth-of-type(1) {
-    background-image: url("/blokweb/images/imagesairbnb/slider1.png");
+    background-image: url("/styles/fonts/mess.png");
 
 }
 
@@ -696,6 +696,7 @@ header button {
 .block div {
     display: flex;
     justify-content: center;
+
 }
 
 /* ruimte tussen de li's */
