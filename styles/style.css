@@ -646,7 +646,7 @@ header button {
 /* algemene styling van de li */
 .block li::before {
     font-size: 18px;
-    font-family: "FontAwesome5Pro-Light";
+    font-family: "FontAwesome";
     vertical-align: top;
 
 }
@@ -809,7 +809,7 @@ div.animatie.hartje {
 /* icoon h6 detail sterretje */
 .tweedepagina main section:first-of-type h6:nth-of-type(2)::before {
     content: "\f005";
-    font-family: "FontAwesome5Pro-Solid";
+    font-family: "FontAwesome";
     margin-right: 5px;
     color: #e61d4f
 }
@@ -865,7 +865,7 @@ hr {
 /* algemene styling icoon*/
 .tweedepagina main section:nth-of-type(2) li::before {
     margin: 20px 10px;
-    font-family: "FontAwesome5Pro-Light";
+    font-family: "FontAwesome";
     font-size: 26px;
     margin-left: -45px;
     vertical-align: top;
@@ -968,7 +968,7 @@ hr {
     padding: 0;
     width: 90%;
     margin: 10px 0;
-    font-family: "FontAwesome5Pro-Solid";
+    font-family: "FontAwesome";
     font-size: 18px;
     margin-left: 20px;
     margin-right: 5px;
