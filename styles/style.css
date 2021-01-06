@@ -223,7 +223,7 @@ a:focus {
     width: 550px;
     height: 540px;
     top: -10px;
-    left: -10px;
+    right: -10px;
 }
 
 /* bars worden wit */
