@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Font Awesome 5 Brands';
-    src: url('/styles/fonts/FontAwesome5Brands-Regular.eot');
-    src: url('/styles/fonts/FontAwesome5Brands-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/styles/fonts/FontAwesome5Brands-Regular.woff2') format('woff2'),
-        url('/styles/fonts/FontAwesome5Brands-Regular.woff') format('woff'),
-        url('/styles/fonts/FontAwesome5Brands-Regular.ttf') format('truetype'),
-        url('/styles/fonts/FontAwesome5Brands-Regular.svg#FontAwesome5Brands-Regular') format('svg');
+    src: url('/blokweb/styles/fonts/FontAwesome5Brands-Regular.eot');
+    src: url('/blokweb/styles/fonts/FontAwesome5Brands-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/blokweb/styles/fonts/FontAwesome5Brands-Regular.woff2') format('woff2'),
+        url('/blokweb/styles/fonts/FontAwesome5Brands-Regular.woff') format('woff'),
+        url('/blokweb/styles/fonts/FontAwesome5Brands-Regular.ttf') format('truetype'),
+        url('/blokweb/styles/fonts/FontAwesome5Brands-Regular.svg#FontAwesome5Brands-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -13,12 +13,12 @@
 
 @font-face {
     font-family: 'Font Awesome 5 Pro Solid';
-    src: url('/styles/fonts/FontAwesome5Pro-Solid.eot');
-    src: url('/styles/fonts/FontAwesome5Pro-Solid.eot?#iefix') format('embedded-opentype'),
-        url('/styles/fonts/FontAwesome5Pro-Solid.woff2') format('woff2'),
-        url('/styles/fonts/FontAwesome5Pro-Solid.woff') format('woff'),
-        url('/styles/fonts/FontAwesome5Pro-Solid.ttf') format('truetype'),
-        url('/styles/fonts/FontAwesome5Pro-Solid.svg#FontAwesome5Pro-Solid') format('svg');
+    src: url('/blokweb/styles/fonts/FontAwesome5Pro-Solid.eot');
+    src: url('/blokweb/styles/fonts/FontAwesome5Pro-Solid.eot?#iefix') format('embedded-opentype'),
+        url('/blokweb/styles/fonts/FontAwesome5Pro-Solid.woff2') format('woff2'),
+        url('/blokweb/styles/fonts/FontAwesome5Pro-Solid.woff') format('woff'),
+        url('/blokweb/styles/fonts/FontAwesome5Pro-Solid.ttf') format('truetype'),
+        url('/blokweb/styles/fonts/FontAwesome5Pro-Solid.svg#FontAwesome5Pro-Solid') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -26,12 +26,12 @@
 
 @font-face {
     font-family: 'Font Awesome 5 Duotone Solid';
-    src: url('/styles/fonts/FontAwesome5Duotone-Solid.eot');
-    src: url('/styles/fonts/FontAwesome5Duotone-Solid.eot?#iefix') format('embedded-opentype'),
-        url('/styles/fonts/FontAwesome5Duotone-Solid.woff2') format('woff2'),
-        url('/styles/fonts/FontAwesome5Duotone-Solid.woff') format('woff'),
-        url('/styles/fonts/FontAwesome5Duotone-Solid.ttf') format('truetype'),
-        url('/styles/fonts/FontAwesome5Duotone-Solid.svg#FontAwesome5Duotone-Solid') format('svg');
+    src: url('/blokweb/styles/fonts/FontAwesome5Duotone-Solid.eot');
+    src: url('/blokweb/styles/fonts/FontAwesome5Duotone-Solid.eot?#iefix') format('embedded-opentype'),
+        url('/blokweb/styles/fonts/FontAwesome5Duotone-Solid.woff2') format('woff2'),
+        url('/blokweb/styles/fonts/FontAwesome5Duotone-Solid.woff') format('woff'),
+        url('/blokweb/styles/fonts/FontAwesome5Duotone-Solid.ttf') format('truetype'),
+        url('/blokweb/styles/fonts/FontAwesome5Duotone-Solid.svg#FontAwesome5Duotone-Solid') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -39,12 +39,12 @@
 
 @font-face {
     font-family: 'Font Awesome 5 Pro';
-    src: url('/styles/fonts/FontAwesome5Pro-Light.eot');
-    src: url('/styles/fonts/FontAwesome5Pro-Light.eot?#iefix') format('embedded-opentype'),
-        url('/styles/fonts/FontAwesome5Pro-Light.woff2') format('woff2'),
-        url('/styles/fonts/FontAwesome5Pro-Light.woff') format('woff'),
-        url('/styles/fonts/FontAwesome5Pro-Light.ttf') format('truetype'),
-        url('/styles/fonts/FontAwesome5Pro-Light.svg#FontAwesome5Pro-Light') format('svg');
+    src: url('/blokweb/styles/fonts/FontAwesome5Pro-Light.eot');
+    src: url('/blokweb/styles/fonts/FontAwesome5Pro-Light.eot?#iefix') format('embedded-opentype'),
+        url('/blokweb/styles/fonts/FontAwesome5Pro-Light.woff2') format('woff2'),
+        url('/blokweb/styles/fonts/FontAwesome5Pro-Light.woff') format('woff'),
+        url('/blokweb/styles/fonts/FontAwesome5Pro-Light.ttf') format('truetype'),
+        url('/blokweb/styles/fonts/FontAwesome5Pro-Light.svg#FontAwesome5Pro-Light') format('svg');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -52,12 +52,12 @@
 
 @font-face {
     font-family: 'Font Awesome 5 Pro';
-    src: url('/styles/fonts/FontAwesome5Pro-Regular.eot');
-    src: url('/styles/fonts/FontAwesome5Pro-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/styles/fonts/FontAwesome5Pro-Regular.woff2') format('woff2'),
-        url('/styles/fonts/FontAwesome5Pro-Regular.woff') format('woff'),
-        url('/styles/fonts/FontAwesome5Pro-Regular.ttf') format('truetype'),
-        url('/styles/fonts/FontAwesome5Pro-Regular.svg#FontAwesome5Pro-Regular') format('svg');
+    src: url('/blokweb/styles/fonts/FontAwesome5Pro-Regular.eot');
+    src: url('/blokweb/styles/fonts/FontAwesome5Pro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/blokweb/styles/fonts/FontAwesome5Pro-Regular.woff2') format('woff2'),
+        url('/blokweb/styles/fonts/FontAwesome5Pro-Regular.woff') format('woff'),
+        url('/blokweb/styles/fonts/FontAwesome5Pro-Regular.ttf') format('truetype'),
+        url('/blokweb/styles/fonts/FontAwesome5Pro-Regular.svg#FontAwesome5Pro-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -67,17 +67,17 @@
 
 @font-face {
     font-family: 'AirbnbCerealApp-ExtraBold';
-    src: url('/styles/fonts/AirbnbCerealApp-ExtraBold.eot');
+    src: url('/blokweb/styles/fonts/AirbnbCerealApp-ExtraBold.eot');
     /* IE9 Compat Modes */
-    src: url('/styles/fonts/AirbnbCerealApp-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    src: url('/blokweb/styles/fonts/AirbnbCerealApp-ExtraBold.eot?#iefix') format('embedded-opentype'),
         /* IE6-IE8 */
-        url('/styles/fonts/AirbnbCerealApp-ExtraBold.woff2') format('woff2'),
+        url('/blokweb/styles/fonts/AirbnbCerealApp-ExtraBold.woff2') format('woff2'),
         /* Super Modern Browsers */
-        url('/styles/fonts/AirbnbCerealApp-ExtraBold.woff') format('woff'),
+        url('/blokweb/styles/fonts/AirbnbCerealApp-ExtraBold.woff') format('woff'),
         /* Pretty Modern Browsers */
-        url('/styles/fonts/AirbnbCerealApp-ExtraBold.ttf') format('truetype'),
+        url('/blokweb/styles/fonts/AirbnbCerealApp-ExtraBold.ttf') format('truetype'),
         /* Safari, Android, iOS */
-        url('/styles/fonts/AirbnbCerealApp-ExtraBold.svg#svgFontName') format('svg');
+        url('/blokweb/styles/fonts/AirbnbCerealApp-ExtraBold.svg#svgFontName') format('svg');
     /* Legacy iOS */
     font-weight: 400;
     font-style: normal;
@@ -85,17 +85,17 @@
 
 font-face {
     font-family: 'AirbnbCerealApp-Bold';
-    src: url('/styles/fonts/AirbnbCerealApp-Bold.eot');
+    src: url('/blokweb/styles/fonts/AirbnbCerealApp-Bold.eot');
     /* IE9 Compat Modes */
-    src: url('/styles/fonts/AirbnbCerealApp-Bold.eot?#iefix') format('embedded-opentype'),
+    src: url('/blokweb/styles/fonts/AirbnbCerealApp-Bold.eot?#iefix') format('embedded-opentype'),
         /* IE6-IE8 */
-        url('/styles/fonts/AirbnbCerealApp-Bold.woff2') format('woff2'),
+        url('/blokweb/styles/fonts/AirbnbCerealApp-Bold.woff2') format('woff2'),
         /* Super Modern Browsers */
-        url('/styles/fonts/AirbnbCerealApp-Bold.woff') format('woff'),
+        url('/blokweb/styles/fonts/AirbnbCerealApp-Bold.woff') format('woff'),
         /* Pretty Modern Browsers */
-        url('/styles/fonts/AirbnbCerealApp-Bold.ttf') format('truetype'),
+        url('/blokweb/styles/fonts/AirbnbCerealApp-Bold.ttf') format('truetype'),
         /* Safari, Android, iOS */
-        url('/styles/fonts/AirbnbCerealApp-Bold.svg#svgFontName') format('svg');
+        url('/blokweb/styles/fonts/AirbnbCerealApp-Bold.svg#svgFontName') format('svg');
     /* Legacy iOS */
     font-weight: 400;
     font-style: normal;
@@ -103,17 +103,17 @@ font-face {
 
 font-face {
     font-family: 'AirbnbCerealApp-Medium';
-    src: url('/styles/fonts/AirbnbCerealApp-Medium.eot');
+    src: url('/blokweb/styles/fonts/AirbnbCerealApp-Medium.eot');
     /* IE9 Compat Modes */
-    src: url('/styles/fonts/AirbnbCerealApp-Medium.eot?#iefix') format('embedded-opentype'),
+    src: url('/blokweb/styles/fonts/AirbnbCerealApp-Medium.eot?#iefix') format('embedded-opentype'),
         /* IE6-IE8 */
-        url('/styles/fonts/AirbnbCerealApp-Medium.woff2') format('woff2'),
+        url('/blokweb/styles/fonts/AirbnbCerealApp-Medium.woff2') format('woff2'),
         /* Super Modern Browsers */
-        url('/styles/fonts/AirbnbCerealApp-Medium.woff') format('woff'),
+        url('/blokweb/styles/fonts/AirbnbCerealApp-Medium.woff') format('woff'),
         /* Pretty Modern Browsers */
-        url('/styles/fonts/AirbnbCerealApp-Medium.ttf') format('truetype'),
+        url('/blokweb/styles/fonts/AirbnbCerealApp-Medium.ttf') format('truetype'),
         /* Safari, Android, iOS */
-        url('/styles/fonts/AirbnbCerealApp-Medium.svg#svgFontName') format('svg');
+        url('/blokweb/styles/fonts/AirbnbCerealApp-Medium.svg#svgFontName') format('svg');
     /* Legacy iOS */
     font-weight: 400;
     font-style: normal;
@@ -121,17 +121,17 @@ font-face {
 
 font-face {
     font-family: 'AirbnbCerealApp-Book';
-    src: url('/styles/fonts/AirbnbCerealApp-Book.eot');
+    src: url('/blokweb/styles/fonts/AirbnbCerealApp-Book.eot');
     /* IE9 Compat Modes */
-    src: url('/styles/fonts/AirbnbCerealApp-Book.eot?#iefix') format('embedded-opentype'),
+    src: url('/blokweb/styles/fonts/AirbnbCerealApp-Book.eot?#iefix') format('embedded-opentype'),
         /* IE6-IE8 */
-        url('/styles/fonts/AirbnbCerealApp-Book.woff2') format('woff2'),
+        url('/blokweb/styles/fonts/AirbnbCerealApp-Book.woff2') format('woff2'),
         /* Super Modern Browsers */
-        url('/styles/fonts/AirbnbCerealApp-Book.woff') format('woff'),
+        url('/blokweb/styles/fonts/AirbnbCerealApp-Book.woff') format('woff'),
         /* Pretty Modern Browsers */
-        url('/styles/fonts/AirbnbCerealApp-Book.ttf') format('truetype'),
+        url('/blokweb/styles/fonts/AirbnbCerealApp-Book.ttf') format('truetype'),
         /* Safari, Android, iOS */
-        url('/styles/fonts/AirbnbCerealApp-Book.svg#svgFontName') format('svg');
+        url('/blokweb/styles/fonts/AirbnbCerealApp-Book.svg#svgFontName') format('svg');
     /* Legacy iOS */
     font-weight: 400;
     font-style: normal;
@@ -139,17 +139,17 @@ font-face {
 
 font-face {
     font-family: 'AirbnbCerealApp-Light';
-    src: url('/styles/fonts/AirbnbCerealApp-Light.eot');
+    src: url('/blokweb/styles/fonts/AirbnbCerealApp-Light.eot');
     /* IE9 Compat Modes */
-    src: url('/styles/fonts/AirbnbCerealApp-Light.eot?#iefix') format('embedded-opentype'),
+    src: url('/blokweb/styles/fonts/AirbnbCerealApp-Light.eot?#iefix') format('embedded-opentype'),
         /* IE6-IE8 */
-        url('/styles/fonts/AirbnbCerealApp-Light.woff2') format('woff2'),
+        url('/blokweb/styles/fonts/AirbnbCerealApp-Light.woff2') format('woff2'),
         /* Super Modern Browsers */
-        url('/styles/fonts/AirbnbCerealApp-Light.woff') format('woff'),
+        url('/blokweb/styles/fonts/AirbnbCerealApp-Light.woff') format('woff'),
         /* Pretty Modern Browsers */
-        url('/styles/fonts/AirbnbCerealApp-Light.ttf') format('truetype'),
+        url('/blokweb/styles/fonts/AirbnbCerealApp-Light.ttf') format('truetype'),
         /* Safari, Android, iOS */
-        url('/styles/fonts/AirbnbCerealApp-Light.svg#svgFontName') format('svg');
+        url('/blokweb/styles/fonts/AirbnbCerealApp-Light.svg#svgFontName') format('svg');
     /* Legacy iOS */
     font-weight: 400;
     font-style: normal;
