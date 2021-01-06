@@ -645,7 +645,7 @@ header button {
 /* algemene styling van de li */
 .block li::before {
     font-size: 18px;
-    font-family: "FontAwesome5Pro-Light";
+    font-family: "Font Awesome 5 Pro";
     vertical-align: top;
 
 }
