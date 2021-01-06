@@ -38,7 +38,7 @@
 }
 
 @font-face {
-    font-family: 'Font Awesome 5 Pro';
+    font-family: 'Font Awesome 5 Pro Light';
     src: url('/blokweb/styles/fonts/FontAwesome5Pro-Light.eot');
     src: url('/blokweb/styles/fonts/FontAwesome5Pro-Light.eot?#iefix') format('embedded-opentype'),
         url('/blokweb/styles/fonts/FontAwesome5Pro-Light.woff2') format('woff2'),
@@ -645,7 +645,7 @@ header button {
 /* algemene styling van de li */
 .block li::before {
     font-size: 18px;
-    font-family: "Font Awesome 5 Proq";
+    font-family: "Font Awesome 5 Pro";
     vertical-align: top;
 
 }
@@ -767,12 +767,12 @@ div.animatie {
 div.animatie::before {
     content: "\f004";
     font-size: 21px;
-    font-family: "Font Awesome 5 Pro Light";
+    font-family: "Font Awesome 5 Pro";
     top: 50%;
     bottom: 50%;
 }
 
-/* icoon voor na de animatie */
+/* icoon na de animatie */
 div.animatie.hartje::before {
     content: "\f004";
     font-size: 21px;
