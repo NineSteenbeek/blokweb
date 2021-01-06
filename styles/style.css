@@ -222,8 +222,8 @@ a:focus {
 .change-bg {
     width: 550px;
     height: 540px;
-    top: 0;
-    right: 0;
+    top: -10px;
+    left: -10px;
 }
 
 /* bars worden wit */
