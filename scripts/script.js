@@ -3,6 +3,19 @@
 /*eslint-env browser*/
 /*eslint 'no-console':0*/
 
+var menuBars = document.getElementById("menu-bar");
+
+menuBars.addEventListener("click", onClickMenu, false);
+menuBars.addEventListener("keypress", function(e) {
+
+    var key = e.which || e.keyCode || 0;
+
+    if (key === 13) {
+        onClickMenu();
+    }
+
+})
+
 function onClickMenu() {
     var menu = document.getElementById("menu");
     menu.classList.toggle("change");
@@ -18,7 +31,7 @@ readMoreBtn.addEventListener('click', showMore, false);
 
 function showMore() {
     text.classList.toggle('show-more');
-    if (readMoreBtn.innerText === 'Read More'){
+    if (readMoreBtn.innerText === 'Read More') {
         readMoreBtn.innerText = 'Read Less';
     } else {
         readMoreBtn.innerText = 'Read More';
@@ -28,6 +41,7 @@ function showMore() {
 var animatie = document.querySelector('div.animatie');
 animatie.addEventListener('click', kloppen, false);
 animatie.addEventListener('keydown', kloppen, false);
+
 function kloppen() {
-  animatie.classList.toggle('hartje');
+    animatie.classList.toggle('hartje');
 }
