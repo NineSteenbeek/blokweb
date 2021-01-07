@@ -290,7 +290,7 @@ form input {
 /* SLIDER DETAIL PAGINA */
 
 /* radio buttons onzichtbaar maken */
-input[type="radio"] {
+input[type='radio'] {
     cursor: pointer;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -299,36 +299,36 @@ input[type="radio"] {
 }
 
 /* wanneer radio button checked is andere slides verplaatsen */
-input[type="radio"]:checked ~ .slide {
+input[type='radio']:checked ~ .slide {
     transform: translateX(100%);
 }
 
 /* wanneer radio button checked is bijhorende slide zichtbaar maken */
-input[type="radio"]:checked + .slide {
+input[type='radio']:checked + .slide {
     opacity: 1;
     transform: translateX(0%);
     z-index: 1;
 }
 
 /* wanneer radio button checked bijhorende slide en navigatie zichtbaar maken */
-input[type="radio"]:checked + .slide + .nav {
+input[type='radio']:checked + .slide + .nav {
     z-index: 1;
 }
 
 /* dots zwarte achtergrond geven wanneer bijhorende slide checked is */
-input[type="radio"]:checked:nth-of-type(1) + .slide + .nav + .dots .dot:nth-child(1) {
+input[type='radio']:checked:nth-of-type(1) + .slide + .nav + .dots .dot:nth-child(1) {
     background-color: black;
 }
 
-input[type="radio"]:checked:nth-of-type(2) + .slide + .nav + .dots .dot:nth-child(2) {
+input[type='radio']:checked:nth-of-type(2) + .slide + .nav + .dots .dot:nth-child(2) {
     background-color: black;
 }
 
-input[type="radio"]:checked:nth-of-type(3) + .slide + .nav + .dots .dot:nth-child(3) {
+input[type='radio']:checked:nth-of-type(3) + .slide + .nav + .dots .dot:nth-child(3) {
     background-color: black;
 }
 
-input[type="radio"]:checked:nth-of-type(4) + .slide + .nav + .dots .dot:nth-child(4) {
+input[type='radio']:checked:nth-of-type(4) + .slide + .nav + .dots .dot:nth-child(4) {
     background-color: black;
 }
 
@@ -357,21 +357,21 @@ input[type="radio"]:checked:nth-of-type(4) + .slide + .nav + .dots .dot:nth-chil
 
 /* afbeeldingen voor in de slider  */
 .slide:nth-of-type(1) {
-    background-image: url("/blokweb/images/imagesairbnb/slider1.png");
+    background-image: url('/blokweb/images/imagesairbnb/slider1.png');
 
 }
 
 .slide:nth-of-type(2) {
-    background-image: url("/blokweb/images/imagesairbnb/slider2.png");
+    background-image: url('/blokweb/images/imagesairbnb/slider2.png');
 
 }
 
 .slide:nth-of-type(3) {
-    background-image: url("/blokweb/images/imagesairbnb/slider3.png");
+    background-image: url('/blokweb/images/imagesairbnb/slider3.png');
 }
 
 .slide:nth-of-type(4) {
-    background-image: url("/blokweb/images/imagesairbnb/slider4.png");
+    background-image: url('/blokweb/images/imagesairbnb/slider4.png');
 }
 
 /* box waar dots inzitten */
@@ -397,7 +397,7 @@ input[type="radio"]:checked:nth-of-type(4) + .slide + .nav + .dots .dot:nth-chil
 header h1 {
     padding-top: 80px;
     color: white;
-    font-family: "Airbnb Cereal App Medium";
+    font-family: 'Airbnb Cereal App Medium';
     font-weight: normal;
     font-size: 28px;
     text-align: center;
@@ -406,7 +406,7 @@ header h1 {
 
 header p {
     color: white;
-    font-family: "Airbnb Cereal App Medium";
+    font-family: 'Airbnb Cereal App Medium';
     font-weight: normal;
     font-size: 12px;
     text-align: center;
@@ -430,7 +430,7 @@ header section {
 header button {
     text-align: center;
     vertical-align: top;
-    font-family: "Airbnb Cereal App Medium";
+    font-family: 'Airbnb Cereal App Medium';
     padding: 8px;
     padding-left: 18px;
     padding-right: 18px;
@@ -473,12 +473,12 @@ header button {
 /* h4 in de figure*/
 .eerstepagina main section:first-of-type figure h4 {
     font-size: 14px;
-    font-family: "Airbnb Cereal App Book";
+    font-family: 'Airbnb Cereal App Book';
 }
 
 /* tekst in de figure*/
 .eerstepagina main section:first-of-type figure p {
-    font-family: "Airbnb Cereal App Light";
+    font-family: 'Airbnb Cereal App Light';
     font-size: 85%;
     color: dimgray;
 }
@@ -513,7 +513,7 @@ header button {
 
 /* p van artikel */
 .eerstepagina main section:nth-of-type(2) article p {
-    font-family: "Airbnb Cereal App Light";
+    font-family: 'Airbnb Cereal App Light';
     font-size: 16px;
     margin-left: 15px;
     margin-right: 20px;
@@ -595,7 +595,7 @@ header button {
     list-style-type: none;
     padding: 7px 5px 7px 5px;
     font-size: 14px;
-    font-family: "Airbnb Cereal App Light";
+    font-family: 'Airbnb Cereal App Light';
 }
 
 /* Eerste li item caps maken */
@@ -615,14 +615,14 @@ header button {
 /* algemene styling van de li */
 .block li::before {
     font-size: 18px;
-    font-family: "Font Awesome 5 Pro";
+    font-family: 'Font Awesome 5 Pro';
     vertical-align: top;
 
 }
 
 /* eerste icoon delen*/
 .block li:first-of-type::before {
-    content: "\f053";
+    content: '\f053';
     margin-right: 7px;
 }
 
@@ -637,7 +637,7 @@ header button {
 
 /* tweede icoon (delen) */
 .block li:nth-child(2)::before {
-    content: "\f35d";
+    content: '\f35d';
 }
 
 .block li:nth-child(2):hover,
@@ -735,9 +735,9 @@ div.animatie {
 
 /* icoon voor de animatie */
 div.animatie::before {
-    content: "\f004";
+    content: '\f004';
     font-size: 21px;
-    font-family: "Font Awesome 5 Pro";
+    font-family: 'Font Awesome 5 Pro';
     top: 50%;
     bottom: 50%;
     color: black;
@@ -745,10 +745,10 @@ div.animatie::before {
 
 /* icoon na de animatie */
 div.animatie.hartje::before {
-    content: "\f004";
+    content: '\f004';
     font-size: 21px;
     color: red;
-    font-family: "Font Awesome 5 Pro Solid";
+    font-family: 'Font Awesome 5 Pro Solid';
     top: 50%;
     bottom: 50%;
 }
@@ -779,8 +779,8 @@ div.animatie.hartje {
 
 /* icoon h6 detail sterretje */
 .tweedepagina main section:first-of-type h6:nth-of-type(2)::before {
-    content: "\f005";
-    font-family: "Font Awesome 5 Pro Solid";
+    content: '\f005';
+    font-family: 'Font Awesome 5 Pro Solid';
     margin-right: 5px;
     color: #e61d4f
 }
@@ -836,7 +836,7 @@ hr {
 /* algemene styling icoon*/
 .tweedepagina main section:nth-of-type(2) li::before {
     margin: 20px 10px;
-    font-family: "Font Awesome 5 Pro Light";
+    font-family: 'Font Awesome 5 Pro Light';
     font-size: 26px;
     margin-left: -45px;
     vertical-align: top;
@@ -859,24 +859,24 @@ hr {
 
 /* individuele li's*/
 .tweedepagina main section:nth-of-type(2) li:first-of-type::before {
-    content: "\f017";
+    content: '\f017';
     margin-right: 17px;
 }
 
 
 .tweedepagina main section:nth-of-type(2) li:nth-child(2)::before {
-    content: "\f0c0";
+    content: '\f0c0';
 }
 
 
 .tweedepagina main section:nth-of-type(2) li:nth-child(3)::before {
-    content: "\f108";
+    content: '\f108';
     margin-right: 15px;
 }
 
 
 .tweedepagina main section:nth-of-type(2) li:nth-child(4)::before {
-    content: "\f1ab";
+    content: '\f1ab';
 }
 
 /* vierkante knop */
@@ -919,7 +919,7 @@ hr {
     cursor: pointer;
     margin-left: 20px;
     font-size: 16px;
-    font-family: "Airbnb Cereal App Medium";
+    font-family: 'Airbnb Cereal App Medium';
 }
 
 /* tekst zichtbaar maken*/
@@ -928,8 +928,8 @@ hr {
 
 }
 
-/* uitlijning h7*/
-.tweedepagina main section:nth-of-type(4) h7 {
+/* uitlijning h6*/
+.tweedepagina main section:nth-of-type(4) h6 {
     margin-left: 20px;
     margin-top: 10px;
 }
@@ -939,7 +939,7 @@ hr {
     padding: 0;
     width: 90%;
     margin: 10px 0;
-    font-family: "Font Awesome 5 Pro Solid";
+    font-family: 'Font Awesome 5 Pro Solid';
     font-size: 18px;
     margin-left: 20px;
     margin-right: 5px;
@@ -949,14 +949,14 @@ hr {
 
 /* icoon 1 li 2*/
 .tweedepagina main section:nth-of-type(4) ul:first-of-type li:first-of-type::before {
-    content: "\f2f7";
+    content: '\f2f7';
 
 
 }
 
 /* icoon 2 li 2*/
 .tweedepagina main section:nth-of-type(4) ul:first-of-type li:nth-child(2)::before {
-    content: "\f005";
+    content: '\f005';
 
 
 }
@@ -1013,7 +1013,7 @@ hr {
 
 /* zorgen dat tekst op andere regel verschijnt*/
 .footer section:first-of-type span {
-    font-family: "Airbnb Cereal App Medium";
+    font-family: 'Airbnb Cereal App Medium';
     display: block;
 }
 
@@ -1060,7 +1060,7 @@ hr {
     left: 0;
     right: 0;
     font-size: 12px;
-    font-family: "Airbnb Cereal App Light";
+    font-family: 'Airbnb Cereal App Light';
 }
 
 /* tekst in zwart vlakje*/
@@ -1070,7 +1070,7 @@ hr {
 
 @media (max-width: 767px) {
     .eerstepagina header:first-of-type {
-        background-image: url("/blokweb/images/imagesairbnb/header2.png");
+        background-image: url('/blokweb/images/imagesairbnb/header2.png');
         background-size: cover;
         background-repeat: no-repeat;
         height: 500px;
@@ -1081,7 +1081,7 @@ hr {
 
 @media (min-width: 678px) and (max-width: 1023px) {
     .eerstepagina header:first-of-type {
-        background-image: url("/blokweb/images/imagesairbnb/header4.png");
+        background-image: url('/blokweb/images/imagesairbnb/header4.png');
         background-size: cover;
         background-repeat: no-repeat;
         margin-top: -45px;
@@ -1101,7 +1101,7 @@ hr {
 
 @media (min-width: 1024px) {
     .eerstepagina header:first-of-type {
-        background-image: url("/blokweb/images/imagesairbnb/header5.png");
+        background-image: url('/blokweb/images/imagesairbnb/header5.png');
         background-size: cover;
         background-repeat: no-repeat;
         margin-top: -45px;
